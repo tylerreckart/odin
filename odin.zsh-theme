@@ -15,7 +15,7 @@ theme_precmd () {
     if [[ -z $(git ls-files --other --exclude-standard 2> /dev/null) ]] {
         zstyle ':vcs_info:*' formats '[%b%B%F{white}] %c%u '
     } else {
-        zstyle ':vcs_info:*' formats '[%b%B%F{white}] %F{red}✘ %c%u '
+        zstyle ':vcs_info:*' formats '[%b%B%F{white}] %F{red}✘%c%u '
     }
     vcs_info
 }
