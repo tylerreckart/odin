@@ -1,8 +1,8 @@
 # The prompt
-PROMPT='$(_user_host)%{$fg[grey]%}[%c]  $(git_prompt_status)%{$reset_color%}→ '
+PROMPT='$(_user_host)%{$fg[grey]%}[%c] $(git_prompt_status)%{$reset_color%}→ '
 
 # The right-hand prompt
-RPROMPT='$(git_prompt_info) %{$reset_color%}%{$fg[magenta]%}$(_git_time_since_commit) ${_return_status}'
+RPROMPT='$(git_prompt_info)%{$reset_color%}%{$fg[magenta]%}$(_git_time_since_commit) ${_return_status}'
 
 local _return_status="%{$fg[red]%}%(?..⍉)%{$reset_color%}"
 
