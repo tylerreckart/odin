@@ -21,4 +21,4 @@ The right side of the prompt also displays the current branch as well as the tim
 I have also included the color scheme that I have set up to work with odin. I've found this configuration to work very well and is suits my needs. Just load `odin.itermcolors` into iTerm2 and you're off. Don't have iTerm2? [Check it out](https://www.iterm2.com/) (hint: it's awesome!)
 
 ## Credits
-This theme is based off of [jacobthemyth](http://github.com/jacobthemyth)'s personal zsh theme with changes made to fit my needs.
+This theme is based off of [jacobthemyth](http://github.com/jacobthemyth)'s personal zsh theme, which can be found in his Dotfiles repository.
