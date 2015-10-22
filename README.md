@@ -7,13 +7,13 @@ Odin is a git flavored theme for [oh-my-zsh](https://github.com/robbyrussell/oh-
 Odin comes with extremely detailed git info built right in so that you know exactly what your status is at all times.
 
 ### Status Indicators 
-◒ - Untracked files 
-✚ - Files added to git
-⚑ - Modified files
-✖ - Deleted files
-➜ - Renamed files
-§ - Unmerged files
-𝝙 - Repo ahead of current branch
+◒ - Untracked files   
+✚ - Files added to git  
+⚑ - Modified files  
+✖ - Deleted files  
+➜ - Renamed files  
+§ - Unmerged files  
+𝝙 - Repo ahead of current branch  
 
 The right side of the prompt also displays the current branch as well as the time since last commit.
 
