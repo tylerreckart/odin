@@ -1,5 +1,28 @@
 # Odin Theme  
-Odin is a git flavored theme for [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/). If you're familiar with zsh, you should be able to install the theme relatively easily. If you're not familiar, check out the zsh [documentation](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization) for more info.  
+Odin is a git flavored theme for [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/).
+
+# Installation
+
+## [Antigen](https://github.com/zsh-users/antigen)
+
+Add `antigen bundle tylerreckart/odin` to your `.zshrc`. Antigen will clone and load the odin repository automatically the next time you start a zsh session.
+
+## [Oh-My-Zsh](http://ohmyz.sh/)
+
+If you're using oh-my-zsh, follow these steps to install odin
+1. `cd zsh_custom/themes`
+2. `git clone git@github.com:tylerreckart/odin.git`
+3. `cp odin/odin.zsh-theme odin.zsh-theme`
+4. `rm -fr odin`
+5. Set `ZSH_THEME="odin"` in your `.zshrc`
+
+If you have any other issues, see the [oh-my-zsh documentation](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization) for more info.  
+
+## [Zgen](https://github.com/tarjoilija/zgen)
+
+1. Add `zgen load tylerreckart/odin` to your `.zshrc` with your other `zgen load` statements
+2. `zgen save` and zgen will automatically handle cloning the repository for you.
+
 <img src="theme-info.png" alt="odin theme">  
 
 # Features
