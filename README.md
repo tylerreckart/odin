@@ -48,3 +48,5 @@ MIT License (MIT)
 
 ## Credits
 This theme is based off of [jacobthemyth](http://github.com/jacobthemyth)'s personal zsh theme, which can be found in his Dotfiles repository.
+
+Special thanks to [Joe Block](https://github.com/unixorn) for adding Odin to his list of [awesome zsh plugins](https://github.com/unixorn/awesome-zsh-plugins)
