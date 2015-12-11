@@ -1,5 +1,7 @@
 # Odin Theme  
-Odin is a git flavored theme for [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/).
+Odin is a shell for git flavored [Zsh](https://github.com/robbyrussell/oh-my-zsh/). 
+
+<img src="http://tylerreckart.com/images/odin-overlay.png" alt=""> 
 
 # Installation
 
@@ -9,25 +11,24 @@ Add `antigen bundle tylerreckart/odin` to your `.zshrc`. Antigen will clone and 
 
 ## [Oh-My-Zsh](http://ohmyz.sh/)
 
-If you're using oh-my-zsh, follow these steps to install odin
-1. `cd zsh_custom/themes`
-2. `git clone git@github.com:tylerreckart/odin.git`
-3. `cp odin/odin.zsh-theme odin.zsh-theme`
-4. `rm -fr odin`
-5. Set `ZSH_THEME="odin"` in your `.zshrc`
+If you're using oh-my-zsh, follow these steps to install odin:
 
+1. `cd zsh_custom/themes`  
+2. `git clone git@github.com:tylerreckart/odin.git`  
+3. `cp odin/odin.zsh-theme odin.zsh-theme`  
+4. `rm -fr odin`  
+5. Set `ZSH_THEME="odin"` in your `.zshrc`  
+  
 If you have any other issues, see the [oh-my-zsh documentation](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization) for more info.  
 
 ## [Zgen](https://github.com/tarjoilija/zgen)
 
-1. Add `zgen load tylerreckart/odin` to your `.zshrc` with your other `zgen load` statements
-2. `zgen save` and zgen will automatically handle cloning the repository for you.
-
-<img src="theme-info.png" alt="odin theme">  
+1. Add `zgen load tylerreckart/odin` to your `.zshrc` with your other `zgen load` statements  
+2. `zgen save` and zgen will automatically handle cloning the repository for you.  
 
 # Features
 ### Detailed git information
-Odin comes with extremely detailed git info built right in so that you know exactly what your status is at all times.
+Odin was built for keeping track of your git repositories. It comes with an array of easily distinguishable status indicators that keep you up to date without overcrowding your shell.
 
 ### Status Indicators 
 ◒ - Untracked files   
