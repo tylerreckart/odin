@@ -1,4 +1,5 @@
-# Odin Theme  
+# Odin Theme 
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tylerreckart/odin/trend.png)](https://bitdeli.com/free "Bitdeli Badge")  
 Odin is a shell for git flavored [Zsh](https://github.com/robbyrussell/oh-my-zsh/). 
 
 <img src="http://tylerreckart.com/images/odin-overlay.png" alt=""> 
@@ -52,6 +53,4 @@ This theme is based off of [jacobthemyth](http://github.com/jacobthemyth)'s pers
 
 Special thanks to [Joe Block](https://github.com/unixorn) for adding Odin to his list of [awesome zsh plugins](https://github.com/unixorn/awesome-zsh-plugins)
 
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tylerreckart/odin/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
