@@ -1,8 +1,6 @@
 # Odin Theme 
 
 [![Join the chat at https://gitter.im/tylerreckart/odin](https://badges.gitter.im/tylerreckart/odin.svg)](https://gitter.im/tylerreckart/odin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tylerreckart/odin/trend.png)](https://bitdeli.com/free "Bitdeli Badge")  
-Odin is a shell for git flavored [Zsh](https://github.com/robbyrussell/oh-my-zsh/). 
 
 <img src="http://tylerreckart.com/images/odin-overlay.png" alt=""> 
 
