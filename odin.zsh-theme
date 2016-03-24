@@ -1,4 +1,4 @@
-## The prompt
+# The prompt
 PROMPT='$(_user_host)%{$fg[grey]%}[%c] $(git_prompt_status)%{$reset_color%}→ '
 
 # The right-hand prompt
