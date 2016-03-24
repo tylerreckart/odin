@@ -2,7 +2,7 @@
 
 [![Join the chat at https://gitter.im/tylerreckart/odin](https://badges.gitter.im/tylerreckart/odin.svg)](https://gitter.im/tylerreckart/odin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-<img src="http://tylerreckart.com/images/odin-overlay.png" alt=""> 
+<img src="theme-info.png" alt=""> 
 
 # Installation
 
