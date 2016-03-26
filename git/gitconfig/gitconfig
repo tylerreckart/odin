@@ -1,0 +1,58 @@
+[user]
+  name = Tyler Reckart
+  email = tyler.reckart@gmail.com
+[apply]
+  whitespace = nowarn
+[branch]
+  autosetupmerge = always
+[color]
+  status = auto
+  diff = auto
+  branch = auto
+  interactive = auto
+  ui = true
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+[core]
+  excludesfile = ~/.gitignore_global
+  quotepath = false
+  trustctime = false
+  pager = less -FRSX
+  editor = vim -u NONE
+[alias]
+  b = branch
+  st = status
+  ci = commit
+  ca = commit - a -m
+  co = checkout
+  di = diff
+  dc = diff --cached
+  dt = difftool
+  dtc = difftool --cached
+  ds = diff --stat=160,120
+  dh1 = diff HEAD~1
+[mergetool]
+  prompt = false
+[github]
+  user = tylerreckart
+[grep]
+  lineNumber = true
+[push]
+  default = simple
+[fetch]
+  prune = true
+[rebase]
+  autosquash = true
+[commit]
+  template = ~/.gitmessage

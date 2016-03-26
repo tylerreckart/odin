@@ -1,0 +1,29 @@
+{
+  "name": "odin",
+  "version": "1.2.0",
+  "description": "Git flavored zsh",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerreckart/odin.git"
+  },
+  "keywords": [
+    "odin",
+    "zsh",
+    "theme",
+    "git"
+  ],
+  "author": "Tyler Reckart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tylerreckart/odin/issues"
+  },
+  "homepage": "https://github.com/tylerreckart/odin#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-lintspaces": "^0.4.1"
+  }
+}
