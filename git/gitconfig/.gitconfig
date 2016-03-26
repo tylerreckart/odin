@@ -45,7 +45,7 @@
 [mergetool]
   prompt = false
 [github]
-  user = tylerreckart
+  user = username
 [grep]
   lineNumber = true
 [push]

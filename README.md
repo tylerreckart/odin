@@ -1,6 +1,8 @@
 ## Odin - Git flavored zsh [![Build Status](https://travis-ci.org/tylerreckart/odin.svg?branch=master)](https://travis-ci.org/tylerreckart/odin) [![Join the chat at https://gitter.im/tylerreckart/odin](https://badges.gitter.im/tylerreckart/odin.svg)](https://gitter.im/tylerreckart/odin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Odin is a [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) shell theme that focused around a git based workflow that provides you with a comprehensive overview of your projects status without overcrowding your shell.
+Odin is a [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) shell theme that focused around a git based workflow that provides you with a comprehensive overview of your projects status without overcrowding your shell.  
+
+![Odin dark](images/preview.gif)
 
 ## Installation
 
@@ -30,38 +32,36 @@ Odin comes packaged with two color schemes, however you can customize Odin with 
 
 ![Odin Light](images/odin-light.png)
 
+## Options  
+Odin is highly configurable. It was build to seamlessly integrate git into my workflow, but my choices may not work for you. Everything from the icons to colors are customizable to whatever you will. Want to slap some emoji in there? Go for it!
+
 ### Status Indicators  
-| Variable                       | Indicator | Meaning                      |
-|--------------------------------|-----------|------------------------------|
-| `ZSH_THEME_GIT_PROMPT_UNTRACKED` | ◒         | Untracked files              |
-| `ZSH_THEME_GIT_PROMPT_ADDED`     | ✓         | Files added to git           |
-| `ZSH_THEME_GIT_PROMPT_MODIFIED`  | ⚑         | Modified files               |
-| `ZSH_THEME_GIT_PROMPT_DELETED`   | ✖         | Deleted files                |
-| `ZSH_THEME_GIT_PROMPT_RENAMED`   | ➜         | Renamed files                |
-| `ZSH_THEME_GIT_PROMPT_UNMERGED`  | §         | Unmerged files               |
-| `ZSH_THEME_GIT_PROMPT_AHEAD`     | 𝝙        | Repo ahead of current branch |
-| `ZSH_THEME_GIT_PROMPT_DIRTY`     | ✗        | Dirty repository |
+| Variable | Indicator | Meaning |
+|----------|-----------|---------|
+| `ZSH_THEME_GIT_PROMPT_UNTRACKED` | ◒ | Untracked files |
+| `ZSH_THEME_GIT_PROMPT_ADDED` | ✓ | Files added to git |
+| `ZSH_THEME_GIT_PROMPT_MODIFIED` | ⚑ | Modified files |
+| `ZSH_THEME_GIT_PROMPT_DELETED` | ✖ | Deleted files |
+| `ZSH_THEME_GIT_PROMPT_RENAMED` | ➜ | Renamed files |
+| `ZSH_THEME_GIT_PROMPT_UNMERGED` | § | Unmerged files |
+| `ZSH_THEME_GIT_PROMPT_AHEAD` | 𝝙 | Repo ahead of current branch |
+| `ZSH_THEME_GIT_PROMPT_DIRTY` | ✗ | Dirty repository |
 
 ### Right hand prompt  
 The right hand prompt displays the current branch, time since last commit, as well as commit status of the repository  
 
-| Variable                       | Branch Color |
-|--------------------------------|-----------|
+| Variable | Branch Color |
+|----------|--------------|
 | `ZSH_THEME_GIT_TIME_SINCE_COMMIT_SHORT` | Green |
-| `ZSH_THEME_GIT_TIME_SINCE_COMMIT_MEDIUM`     | Yellow |
+| `ZSH_THEME_GIT_TIME_SINCE_COMMIT_MEDIUM` | Yellow |
 | `ZSH_THEME_GIT_TIME_SINCE_COMMIT_LONG`  | Red |
-| `ZSH_THEME_GIT_TIME_SINCE_COMMIT_NEUTRAL`   | Grey |
+| `ZSH_THEME_GIT_TIME_SINCE_COMMIT_NEUTRAL` | Grey |
 
-### Status Indicators
-◒ - Untracked files   
-✚ - Files added to git  
-⚑ - Modified files  
-✖ - Deleted files  
-➜ - Renamed files  
-§ - Unmerged files  
-𝝙 - Repo ahead of current branch  
+## git  
+Included in the project repo is a git folder, which contains two subfolders with git configuration settings. The config folder holds a `.gitconfig` file. This file contains all of the aliases and git settings that I use in my day-to-day workflow. Also included is a `.gitmessage` file, which allows for you to customize what you see when you make a commit. Just copy those over to your home directory and you'll be set (you'll have to fill in your info in the `.gitconfig` file to get everything working). 
 
-The right side of the prompt also displays the current branch as well as the time since last commit.
+## tmux  
+Odin works great with tmux. Included in the project repo is a `tmux` folder, which contains all of my preferences for utilizing tmux in tandem with Odin
 
 ## Credits
 Odin is highly inspired by [jacobthemyth](http://github.com/jacobthemyth/dotfiles)'s personal zsh shell.
