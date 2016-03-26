@@ -1,6 +1,6 @@
 [user]
-  name = Tyler Reckart
-  email = tyler.reckart@gmail.com
+  name = Firstname Lastname
+  email = email@example.com
 [apply]
   whitespace = nowarn
 [branch]
