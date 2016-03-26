@@ -2,11 +2,7 @@
 
 Odin is a [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) shell theme that focused around a git based workflow that provides you with a comprehensive overview of your projects status without overcrowding your shell.  
 
-<<<<<<< HEAD
-![Odin dark](images/preview.gif)
-=======
-<img src="theme-info.png" alt=""> 
->>>>>>> 38ed2bd7eeae9a051e61a23a5afa48b3c2f7da9f
+![Odin](images/preview.gif)
 
 ## Installation
 
