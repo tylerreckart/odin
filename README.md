@@ -61,7 +61,7 @@ The right hand prompt displays the current branch, time since last commit, as we
 Included in the project repo is a git folder, which contains two subfolders with git configuration settings. The config folder holds a `.gitconfig` file. This file contains all of the aliases and git settings that I use in my day-to-day workflow. Also included is a `.gitmessage` file, which allows for you to customize what you see when you make a commit. Just copy those over to your home directory and you'll be set (you'll have to fill in your info in the `.gitconfig` file to get everything working).
 
 ## [Tmux](https://tmux.github.io/) 
-Odin works great with tmux. Included in the project repo is a `tmux` folder, which contains all of my preferences for utilizing tmux in tandem with Odin
+Odin works great with tmux. Included in the project repo is a `tmux` folder, which contains all of my preferences for utilizing tmux in tandem with Odin.
 
 ## Credits
 Odin is highly inspired by [jacobthemyth](http://github.com/jacobthemyth/dotfiles)'s personal zsh shell.
