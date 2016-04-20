@@ -28,8 +28,8 @@ If you have any other issues, see the [oh-my-zsh documentation](https://github.c
 ## Color schemes  
 Odin comes packaged with two color schemes, however you can customize Odin with whatever color scheme you like. Color schemes can be found in the `colors` folder.
 
-![Odin dark](images/odin-dark.png)
-
+![Odin Dark](images/odin-dark.png)
+![Odin Dark (Alternate)](images/odin-dark_alt.png)
 ![Odin Light](images/odin-light.png)
 
 ## Options  
