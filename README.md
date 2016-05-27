@@ -12,11 +12,15 @@ Add `antigen bundle tylerreckart/odin` to your `.zshrc`. Antigen will clone and 
 
 ### For [oh-my-zsh](http://ohmyz.sh/) users
 
-If you're using oh-my-zsh, follow these steps to install odin:
+If you're using oh-my-zsh, follow these steps to install odin:  
 
-1. `cd zsh_custom/themes`  
-2. `curl -L https://raw.githubusercontent.com/tylerreckart/odin && make`
-3. Set `ZSH_THEME="odin"` in your `.zshrc`  
+`cd zsh_custom/themes`
+
+```sh 
+curl -L -o master.zip https://github.com/tylerreckart/odin/archive/2.1.1/zip | unzip master && cd Odin-2.1.1 && make
+```  
+
+Set `ZSH_THEME="odin"` in your `.zshrc`
 
 If you have any other issues, see the [oh-my-zsh documentation](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization) for more info.  
 
