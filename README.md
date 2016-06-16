@@ -17,7 +17,7 @@ If you're using oh-my-zsh, follow these steps to install odin:
 `cd zsh_custom/themes`
 
 ```sh 
-curl -L -o master.zip https://github.com/tylerreckart/odin/archive/2.1.1/zip | unzip master && cd Odin-2.1.1 && make
+curl -L -o master.zip https://github.com/tylerreckart/odin/archive/2.1.1.zip | unzip master && cd Odin-2.1.1 && make
 ```  
 
 Set `ZSH_THEME="odin"` in your `.zshrc`
