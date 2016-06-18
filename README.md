@@ -16,7 +16,7 @@ If you're using oh-my-zsh, follow these steps to install odin:
 
 `cd zsh_custom/themes`
 
-```sh 
+```sh
 curl -L -o master.zip https://github.com/tylerreckart/odin/archive/2.1.1.zip | unzip master && cd Odin-2.1.1 && make
 ```  
 
@@ -30,11 +30,10 @@ If you have any other issues, see the [oh-my-zsh documentation](https://github.c
 2. `zgen save` and zgen will automatically handle cloning the repository for you.
 
 ## Color schemes  
-Odin comes packaged with two color schemes, however you can customize Odin with whatever color scheme you like. Color schemes can be found in the `colors` folder.
+Odin comes packaged with two color schemes, however you can customize Odin with whatever color scheme you like. Options can be found in the `colors` folder.
 
-![Odin Dark](images/odin-dark.png)
-![Odin Dark (Alternate)](images/odin-dark_alt.png)
-![Odin Light](images/odin-light.png)
+![Odin - Dusk](images/odin-dusk.png)
+![Odin - Midnight](images/odin-midnight.png)
 
 ## Options  
 Odin is highly configurable. It was build to seamlessly integrate git into my workflow, but my choices may not work for you. Everything from the icons to colors are customizable to whatever you will. Want to slap some emoji in there? Go for it!
@@ -64,7 +63,7 @@ The right hand prompt displays the current branch, time since last commit, as we
 ## Git  
 Included in the project repo is a git folder, which contains two subfolders with git configuration settings. The config folder holds a `.gitconfig` file. This file contains all of the aliases and git settings that I use in my day-to-day workflow. Also included is a `.gitmessage` file, which allows for you to customize what you see when you make a commit. Just copy those over to your home directory and you'll be set (you'll have to fill in your info in the `.gitconfig` file to get everything working).
 
-## [Tmux](https://tmux.github.io/) 
+## [Tmux](https://tmux.github.io/)
 Odin works great with tmux. Included in the project repo is a `tmux` folder, which contains all of my preferences for utilizing tmux in tandem with Odin.
 
 ## Credits
