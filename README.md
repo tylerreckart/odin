@@ -17,6 +17,8 @@ It currently shows:
 
 Add `antigen bundle tylerreckart/odin` to your `.zshrc`. Antigen will clone and load the odin repository automatically the next time you start a zsh session.
 
+Add `antigen theme tylerreckart/odin odin.zsh-theme` to your `.zshrc` to use odin.
+
 ### For [oh-my-zsh](http://ohmyz.sh/) users
 
 If you're using oh-my-zsh, follow these steps to install odin:  
