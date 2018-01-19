@@ -1,6 +1,6 @@
 ![Odin Logo](images/Odin.png )  
 
-Odin is a [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) theme centered around a Git-heavy workflow. It gives you a comprehensive view of your current branch without cluttering the terminal.  
+Odin is a Z shell theme centered around a Git-heavy workflow. It gives you a comprehensive view of your current branch without cluttering the terminal.  
 
 ![Odin Preview](images/hero_screenshot.png)
 
