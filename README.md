@@ -1,4 +1,4 @@
-![Odin Logo](images/Odin.png )  
+<div style="text-align:center"><img src="images/Odin.png" alt="Odin logo"></div>
 
 Odin is a Z shell theme centered around a Git-heavy workflow. It gives you a comprehensive view of your current branch without cluttering the terminal.  
 
@@ -66,4 +66,4 @@ The right hand prompt displays the current branch, time since last commit, as we
 When cloning this repository, you'll find a git folder that contains a git config that I've found to work well with this shell. Just copy the files, `.gitconfig` and `.gitmessage` over to your home directory and you'll be all set.
 
 ## License
-MIT (c) 2016 - 2018 [Tyler Reckart](https://github.com/tylerreckart)
+MIT [Tyler Reckart](https://github.com/tylerreckart)
