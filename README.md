@@ -1,8 +1,7 @@
-<div style="text-align:center"><img src="images/Odin.png" alt="Odin logo"></div>
+![Odin Preview](images/hero_screenshot.png)
 
 Odin is a Z shell theme centered around a Git-heavy workflow. It gives you a comprehensive view of your current branch without cluttering the terminal.  
 
-![Odin Preview](images/hero_screenshot.png)
 
 ## Installation
 
